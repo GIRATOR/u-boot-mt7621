@@ -88,9 +88,9 @@
 #define FLASH_MSG "Flash component: 16 MBytes NOR Flash"
 #elif defined (ON_BOARD_32M_FLASH_COMPONENT)
 #define FLASH_MSG "Flash component: 32 MBytes NOR Flash"
-  #ifndef RT3052_MP2
-  #error "32MB flash is only supported by RT3052 MP2 currently"
-  #endif
+  //#ifndef RT3052_MP2
+  //#error "32MB flash is only supported by RT3052 MP2 currently"
+  //#endif
 #endif
 
 #define RLT_MTK_VENDOR_NAME	"MediaTek"
